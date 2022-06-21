@@ -1,0 +1,74 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: utf-8"
+      }
+    ],
+    "line": 6,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Deve executar especificação",
+        "description": "",
+        "id": "aprender-cucumber;deve-executar-especificação",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127466400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Que eu criei o arquivo corretamente",
+            "match": {
+              "location": "AprenderCucumber.que_eu_criei_o_arquivo_corretamente()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 24800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Executá-lo",
+            "match": {
+              "location": "AprenderCucumber.executá_lo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "A especificação deve finalizar com sucesso",
+            "match": {
+              "location": "AprenderCucumber.a_especificação_deve_finalizar_com_sucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Aprender Cucumber",
+    "description": "Como um aluno\r\nEu quero aprender a utilizar Cucumber\r\nPara que eu possa automatizar critérios de aceitação",
+    "id": "aprender-cucumber",
+    "keyword": "Funcionalidade",
+    "uri": "features/aprender_cucumber.feature",
+    "tags": [
+      {
+        "line": 5,
+        "name": "@test"
+      }
+    ]
+  }
+]
