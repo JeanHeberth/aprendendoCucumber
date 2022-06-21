@@ -26,7 +26,7 @@ Funcionalidade: Aprender Cucumber
     Quando eu incrementar em 35
     Então  o valor do contador será 158
 
-  @AtrasoEmDias
+  @AtrasoEmDiasss
   Cenário: Deve calcular atraso no prazo de entrega
     Dado que a entrega é dia 05/04/2018
     Quando a entrega atrasar e 2 dias
